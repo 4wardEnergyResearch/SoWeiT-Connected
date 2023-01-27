@@ -51,5 +51,27 @@ The optimisation is carried out every 15 seconds by the control system. To avoid
 
 Switching from the direct line to the public grid is possible at any time to ensure that no more PV-energy is drawn from the direct lines than is actually available.
 
-
 ## Data Set
+The example data set consists of anonymized measured data from the pilot in Thannhausen. The data is available for two days and includes 
+
+- the energy consumption of eight consumers
+
+- the energy production of the photvoltaic system
+
+All data is measured in Watt with a resolution of 15 seconds.
+
+## Get Started
+
+1. Download the "SoWeit_Connected_Optimierer.py", the "SoWeiT_Connected_Testfunktion.py" and the testing data set "Testdaten.csv"
+
+2. If necessary install following libraries:
+
+   - numpy
+
+   - pandas
+
+   - datetime
+
+3. Install the [cbc-Solver](https://github.com/coin-or/Cbc) for Python
+
+4. Run the "SoWeiT_Connected_Testfunktion.py"
