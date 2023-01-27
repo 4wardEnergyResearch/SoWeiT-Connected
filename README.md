@@ -29,7 +29,7 @@ Further information about the project is available at the homepage of [4ward Ene
 
 ## Description
 
-The direct line system in Thannhausen connects eight consumer with one photovoltaic system. Each consumer is connected to the direct line system as well as to the public grid. A control regime is needed, to decide wether a consumer is connected to the direct line system or the the public grid. The program code the control regime is based on can be found in the function *SoWeiT_Connected_Optimierer.py*. A testing function *SoWeiT_Connected_Testfunktion.py* which calls the optimizer and calculates the switching process for two example days is available too.
+The direct line system in Thannhausen connects eight consumer with one photovoltaic system. Each consumer is connected to the direct line system as well as to the public grid. A control regime is needed, to decide whether a consumer is connected to the direct line system or the public grid. The program code the control regime is based on can be found in the function *SoWeiT_Connected_Optimierer.py*. A testing function *SoWeiT_Connected_Testfunktion.py* which calls the optimizer and calculates the switching process for two example days is available too.
 
 For normal operation, the following rules apply for the control regime:
 
@@ -52,17 +52,17 @@ The optimisation is carried out every 15 seconds by the control system. To avoid
 Switching from the direct line to the public grid is possible at any time to ensure that no more PV-energy is drawn from the direct lines than is actually available.
 
 ## Data Set
-The example data set consists of anonymized measured data from the pilot in Thannhausen. The data is available for two days and includes 
+The example data set contains anonymized measurement data from the pilot in Thannhausen. The data is available for two days and includes 
 
-- the energy consumption of eight consumers
+- the energy consumption of eight consumers and
 
-- the energy production of the photvoltaic system
+- the energy production of the photovoltaic system.
 
 All data is measured in Watt with a resolution of 15 seconds.
 
 ## Get Started
 
-1. Download the "SoWeit_Connected_Optimierer.py", the "SoWeiT_Connected_Testfunktion.py" and the testing data set "Testdaten.csv"
+1. Download the *SoWeit_Connected_Optimierer.py*, the *SoWeiT_Connected_Testfunktion.py* and the testing data set *Testdaten.csv*
 
 2. If necessary install following libraries:
 
