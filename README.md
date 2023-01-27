@@ -74,4 +74,4 @@ All data is measured in Watt with a resolution of 15 seconds.
 
 3. Install the [cbc-Solver](https://github.com/coin-or/Cbc) for Python
 
-4. Run the "SoWeiT_Connected_Testfunktion.py"
+4. Run the *SoWeiT_Connected_Testfunktion.py*
