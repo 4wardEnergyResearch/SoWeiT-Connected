@@ -75,3 +75,8 @@ All data is measured in Watt with a resolution of 15 seconds.
 3. Install the [cbc-Solver](https://github.com/coin-or/Cbc) for Python
 
 4. Run the *SoWeiT_Connected_Testfunktion.py*
+
+## License
+This project is licensed under the [GNU General Public License 3](https://www.gnu.org/licenses/gpl-3.0)
+
+Copyright (c) 2023 4ward Energy Research GmbH
